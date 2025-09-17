@@ -4,17 +4,11 @@
         const favouriteNumber=7;
         console.log(favouriteNumber)
 
-        var a =5;
-        console.log(a)
-
-        var b=10;
-        console.log(b)
-
-        a = 10;
-        console.log(a)
-
-        b = 5;
-        console.log(b)
+        let a =5; b =10;
+        let temp =a;
+        a = b;
+        b = temp;
+        console.log(temp)
 
         let x = 7;
         console.log(x)
@@ -31,8 +25,8 @@
         let futureAge = age + 10;
         console.log(futureAge)
 
-        let temperature = "Today's temperature is 37C";
-        console.log(temperature)
+        let temperature = 37;
+        console.log("Today's temperature is" + temperature +"" )
 
         let firstName = 'praise';
         console.log(firstName)
@@ -53,7 +47,7 @@
         console.log(area)
 
         const daysInWeek = 7;
-        console.log(daysInWeek)
+        console.log("There are" + daysInWeek + "days in a week")
 
         let balance = 100;
         console.log(balance)
