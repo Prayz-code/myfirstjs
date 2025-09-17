@@ -8,7 +8,7 @@
         let temp =a;
         a = b;
         b = temp;
-        console.log(temp)
+        console.log(a, b)
 
         let x = 7;
         console.log(x)
