@@ -26,7 +26,7 @@
         console.log(futureAge)
 
         let temperature = 37;
-        console.log("Today's temperature is" + temperature +"" )
+        console.log("Today's temperature is" + " " + temperature +"°C" )
 
         let firstName = 'praise';
         console.log(firstName)
@@ -34,7 +34,7 @@
         let lastName = 'onyedika';
         console.log(lastName)
 
-        let fullName = firstName + lastName;
+        let fullName = firstName + " " + lastName;
         console.log(fullName)
 
         const length = 6; 
@@ -47,7 +47,7 @@
         console.log(area)
 
         const daysInWeek = 7;
-        console.log("There are" + daysInWeek + "days in a week")
+        console.log("There are " + daysInWeek +" "+ "days in a week")
 
         let balance = 100;
         console.log(balance)
@@ -58,4 +58,5 @@
         let newBalance = balance + deposit;
         console.log(newBalance)
 
-        
+      
+      
